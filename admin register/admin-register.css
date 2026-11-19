@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial;
+    background-color: lightgray;
+}
+
+
+.container {
+    width: 400px;
+    background-color: white;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+h1, h2, .subtitle {
+    text-align: center;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset {
+    background-color: darkred;
+}
+button:hover {
+    opacity: 0.7;
+}
+
+
+
+.account-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.account-link a {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}
